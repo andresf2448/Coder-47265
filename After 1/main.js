@@ -162,7 +162,13 @@ switch(valor){
 // }
 
 let nombre = "Ximena";
-let direccion = "AV";
+let direccion = "";
 
-console.log("Hola " + nombre + " tu direccion es " + direccion);
-console.log(`Hola ${nombre} tu direccion es ${direccion}`);
+// console.log("Hola " + nombre + " tu direccion es " + direccion);
+// console.log(`Hola ${nombre} tu direccion es ${direccion}`);
+
+if(nombre != "" && direccion != ""){
+  console.log("Informacion correcta");
+}else{
+  console.log("El nombre y la direccion son requeridas");
+}
