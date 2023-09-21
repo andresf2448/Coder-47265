@@ -129,34 +129,40 @@ switch(valor){
 //   }
 // }
 
-let respuesta = prompt("quieres realizar una operacion");
+// let respuesta = prompt("quieres realizar una operacion");
 
-while (respuesta === "si") {
-  let operacion = prompt("Ingrese la operacion deseada");
-  let numeroUno = Number(prompt("Ingrese el numero uno"));
-  let numeroDos = Number(prompt("Ingrese el numero dos"));
+// while (respuesta === "si") {
+//   let operacion = prompt("Ingrese la operacion deseada");
+//   let numeroUno = Number(prompt("Ingrese el numero uno"));
+//   let numeroDos = Number(prompt("Ingrese el numero dos"));
 
-  switch (operacion) {
-    case "+":
-      alert(numeroUno + numeroDos);
-      break;
+//   switch (operacion) {
+//     case "+":
+//       alert(numeroUno + numeroDos);
+//       break;
 
-    case "-":
-      alert(numeroUno - numeroDos);
-      break;
+//     case "-":
+//       alert(numeroUno - numeroDos);
+//       break;
 
-    case "*":
-      alert(numeroUno * numeroDos);
-      break;
+//     case "*":
+//       alert(numeroUno * numeroDos);
+//       break;
 
-    case "/":
-      alert(numeroUno / numeroDos);
-      break;
+//     case "/":
+//       alert(numeroUno / numeroDos);
+//       break;
 
-    default:
-      alert("operacion no identificada");
-      break;
-  }
+//     default:
+//       alert("operacion no identificada");
+//       break;
+//   }
 
-  respuesta = prompt("quieres realizar una operacion");
-}
+//   respuesta = prompt("quieres realizar una operacion");
+// }
+
+let nombre = "Ximena";
+let direccion = "AV";
+
+console.log("Hola " + nombre + " tu direccion es " + direccion);
+console.log(`Hola ${nombre} tu direccion es ${direccion}`);
