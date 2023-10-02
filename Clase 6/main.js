@@ -170,6 +170,17 @@ const productos = [
   { id: 4, nombre: "gorra", precio: 1000 },
 ];
 
-for(const item of productos){
-  console.log(item);
+// for(const item of productos){
+//   console.log(item);
+// }
+
+let nombre = "gorra";
+let producto;
+
+for (const item of productos) {
+  if (item.nombre === nombre) {
+    producto = item;
+  }
 }
+
+console.log(producto);
