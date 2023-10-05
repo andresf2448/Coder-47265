@@ -169,7 +169,7 @@ console.log(
       return 1;
     }
     if (a.name < b.name) {
-      return -1;
+      return 1;
     }
     // a es igual a b
     return 0;
