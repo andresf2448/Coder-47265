@@ -90,8 +90,8 @@ productos.forEach((item) => {
     <h2>Id: ${item.id}</h2>
     <p>Nombre: ${item.nombre}</p>
     <b>$${item.precio}</b>
-    <hr />
     </div>
+    <hr/>
   `;
 
   document.body.append(div);
