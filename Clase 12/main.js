@@ -160,7 +160,11 @@ valor1 || valor2 retorna valor1 si este es verdadero si no retorna valor2
 
 // desestructurar(objeto);
 
-const numeros = [4, 5, 6, 8];
-const [a, , c] = numeros;
+// const numeros = [4, 5, 6, 8];
+// const [a, , c] = numeros;
 
-console.log(a, c);
+// console.log(a, c);
+
+// const arreglo = [];
+
+// localStorage.setItem("productos", JSON.stringify(arreglo));
